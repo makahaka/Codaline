@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Weather in Ukraine</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Itim|Lobster" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h2>Погода в Україні</h2>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Головна</a></li>
+			<li><a href="#">Супутникова інформація</a></li>
+			<li><a href="#">Архів погоди</a></li>
+			<li><a href="#">Погода на дорогах</a></li>
+			<li><a href="#">Корисне</a></li>
+		</ul>
+	</nav>
+		<section>
+		<article>
+			<form>
+			<h4>Визначити погоду міста<br>(введіть місто англійською)</h4>
+			<input type="text" name="search" class="input_form" id="input_form">
+			<input value="Пошук" class="search" id="search" type="button">
+			<ul id="list"></ul>
+			<input value="очистити" class="clear" id="clear" type="button">
+		</form>
+		</article>
+		<aside>
+			<h4>Погода 10-ти найбільших<br>міст України:</h4>
+			<ul>
+				<li><a id="kyiv" href="#">Київ</a></li>
+				<li><a id="kharkiv" href="#">Харків</a></li>
+				<li><a id="odessa" href="#">Одеса</a></li>
+				<li><a id="dnipropetrovsk" href="#">Дніпро</a></li>
+				<li><a id="donetsk" href="#">Донецьк</a></li>
+				<li><a href="#">Запоріжжя</a></li>
+				<li><a href="#">Львів</a></li>
+				<li><a href="#">Кривий Ріг</a></li>
+				<li><a href="#">Миколаїв</a></li>
+				<li><a href="#">Маріуполь</a></li>
+			</ul>
+		</aside>
+		</section>
+	<footer>
+		<h5>2016</h5>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>

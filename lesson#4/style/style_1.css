@@ -1,0 +1,303 @@
+body {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+		
+main{
+	margin: 0 auto;
+}
+
+section {
+	margin: 40px 350px;
+	padding: 10px;
+	text-align: justify;
+}
+
+article {
+	margin: 30px auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+code {
+	font-weight: bold;
+}
+
+p { 
+	text-indent: 1em;
+	margin: 0;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	margin-left: -20px;
+}
+
+h4 {
+	text-transform: uppercase; 
+	font-weight: normal; 
+	text-align: center;
+}
+
+/*first page*/
+
+.first_page header p {
+	text-indent: 0;
+}
+
+.first_page a {
+	border: solid 1px aqua;
+}
+
+.example {
+	text-align: center; 
+	padding-bottom: 30px;
+}
+
+.example h1, h2 {
+	font-weight: normal;
+}
+
+.example h1 {
+	font-size: 2em;
+}
+
+.example p {
+	text-align: center;
+}
+
+.abstract span {
+	display: block; 
+	padding: 1em 0 1em 5em;
+}
+
+.introduction_pg1 p:first-child {
+	text-align: justify; 
+	padding-bottom: 0; 
+	margin-bottom: 0;
+}
+
+.introduction_pg1 p:last-child {
+	text-indent: 0;
+	margin-top: 10px;
+}
+
+.first_page footer hr {
+	width: 40px;
+	margin: 0;
+}
+
+.first_page footer p:first-child {
+	text-indent: 0; 
+	font-size: 14px;
+}
+
+.first_page footer p:first-child {
+	text-align: center; 
+	padding-top: 1em;
+}
+
+/*second page*/
+
+.introduction_pg2 p:first-child {
+	padding-bottom: 10px;
+	text-indent: 0;
+}
+
+.introduction_pg2 p:nth-child(2) {
+	text-indent: 0;
+}
+
+.introduction_pg2 ul {
+	padding-left: 40px;
+}
+
+.frontmatter_pg1 p:first-child {
+	text-indent: 0; 
+}
+
+/*third page*/
+
+.frontmatter_pg2 p:first-child {
+	text-indent: 0;
+}
+
+.s_and_e_pg1 strong{
+	font-size: 1em;
+}
+
+.s_and_e_pg1 p{
+	text-indent: 0;
+	padding-bottom: 1em;
+}
+
+.s_and_e_pg1 p:nth-child(2n+6){
+	text-indent: 1em;
+}
+
+/*fourth page*/
+
+.s_and_e_pg2 p:first-child{
+	text-indent: 0;
+}
+
+/*fifth page*/
+
+.fifth_page header p {
+	text-indent: 0;
+}
+
+.fifth_page header strong {
+	font-size: 1em;
+}
+
+.r_and_c p:nth-child(5n+1)  {
+	text-indent: 0;
+}
+
+.r_and_c p a {
+	border: 2px solid red;
+}
+
+.r_and_c h3 {
+	padding-top: 1.5em ; 
+	padding-bottom: 0.5em; 
+	font-weight: normal;
+}
+
+.r_and_c a:last-child {
+	border: solid 1px aqua;
+}
+
+/*sixth page*/
+
+.using p:first-child {
+	text-indent: 0;
+}
+
+.sixth_page h3 {
+	margin-bottom: 0;
+}
+
+.utility h3 span {
+	font-weight: normal;
+}
+
+.utility p a {
+	border: 1px solid aqua;
+}
+
+.utility p span {
+	border: 2px solid red
+}
+
+.pdfl_pg1 p:first-child {
+	padding: 0; 
+	margin: 0; 
+	text-indent: 1em;
+}
+
+.pdfl_pg1 p:first-child a {
+	border: 1px solid aqua;
+}
+
+.sup {
+	padding: 1px;
+	border: 2px solid red;
+}
+
+.pdfl_pg1 p:last-child {
+	padding-bottom: 1em;
+}
+
+.sixth_page footer hr {
+	width: 40px;
+	margin-left: 0;
+}
+
+.sixth_page footer p {
+	text-indent: 0; 
+	font-size: 12px;
+}
+
+/*seventh page*/
+
+.pdfl_pg2 p {
+	text-indent: 0; 
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.pdfl_pg2 p:last-child {
+	text-indent: 1em;
+}
+
+.pdfl_pg2 img{
+	margin: 0 auto; 
+	display: block;
+	width: 290px;
+	height: 290px;
+}
+
+/*eighth page*/
+
+.pdfl_pg3 p {
+	text-indent: 0;
+}
+
+.eighth_page h3{
+	margin-bottom: 0;
+}
+
+.summary strong {
+	font-size: 1em;
+}
+
+.summary p {
+	text-indent: 0;
+	margin-bottom: 10px;
+}
+
+.summary p:last-child {
+	text-indent: 1em;
+}
+
+/*ninth page*/
+
+.copyright_pg2 p {
+	text-indent: 0;
+}
+.copyright_pg2 span {
+	border: solid 1px aqua;
+}
+
+.public h3 {
+	margin-bottom: 0;
+}
+
+.bibliogr p {
+	text-indent: 0;
+}
+
+.references>ol {
+	list-style-type: none;
+	counter-reset:  item ;
+	margin-left: -15px;
+}
+
+.references>ol li:before {
+	content: '[' counter(item) '] ';
+	counter-increment: item ; 
+	margin-left: -20px;
+}
+
+.references a{
+	border: solid 1px aqua;
+}
+
+/*tenth page*/

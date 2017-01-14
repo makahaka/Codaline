@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+header h1, header h2 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  text-align-font-weight: normal;
+}
+
+pre {
+  color: red;
+}
+
+a {
+  color: #FF00FF;
+}
+
+main {
+  margin: 40px 250px;
+  font-size: 18px;
+}
+
+.number {
+  color: black;
+}
+
+.l {
+  letter-spacing: -3px;
+}
+
+.ls {
+  letter-spacing: -2px;
+}
+
+.va {
+  vertical-align: 4px;
+  font-size: 0.7em;
+}
+
+.vab {
+  vertical-align: 6px;
+  font-size: 0.7em;
+}
+
+.vabc {
+  vertical-align: 8px;
+  font-size: 0.7em;
+}
+
+.sub {
+  vertical-align: sub;
+}
+
+.lsb {
+  letter-spacing: -4px;
+}
+
+.tiny {
+  font-size: 6pt;
+}
+
+.scriptsize {
+  font-size: 8pt;
+}
+
+.footnotesize {
+  font-size: 10pt;
+}
+
+.small {
+  font-size: 10.95pt;
+}
+
+.normalsize {
+  font-size: 12pt;
+}
+
+.large {
+  font-size: 14.4pt;
+}
+
+.Large {
+  font-size: 17.28pt;
+}
+
+.LARGE {
+  font-size: 20.74pt;
+}
+
+.huge {
+  font-size: 24.88pt;
+}
+
+.Huge {
+  font-size: 24.88pt;
+}

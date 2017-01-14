@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	padding: 10px 60px;
+}
+
+main {
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+table, td, th {
+	margin-left: 20px;
+	border: 1px solid black;
+}
+
+h3 {
+	margin: 20px 0 0 0;
+}
+
+p {
+	font-size: 22px;
+}
+
+.marbot {
+	margin-bottom: 30px;
+}
+
+.noBorder {
+	border: none;
+}
+
+.noBorder td {
+	border: none;
+}
+
+.ramka {
+	border: 10px outset grey;
+}
+
+.cell {
+	border: 10px outset grey
+}
+
+.captop {
+	caption-side: top;
+}
+
+.capbot {
+	caption-side: bottom;
+}
+
+.undrline {
+	text-decoration: underline;
+}
+
+.margnol {
+	margin: 0;
+}
+
+.margnolavt {
+	margin: 0 auto
+}

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>index_4</title>
+	<link rel="stylesheet" href="style/style_4.css">
+</head>
+<body>
+	<main>
+
+	<!--First page-->
+
+		<h3>Звичайна таблиця 3X2</h3>
+			<table>
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>B</td>
+					<td>E</td>
+					<td>F</td>
+				</tr>
+			</table>
+		<h3>Два приклади С ROWSPAN</h3>
+			<table class="marbot">
+				<tr>
+					<td>Комірка 1</td>
+					<td rowspan="2">Комірка 2</td>
+					<td bgcolor="green">Комірка 3</td>
+				</tr>
+				<tr>
+					<td bgcolor="yellow">Комірка 4</td>
+					<td>Комірка 5</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td rowspan="2">Комірка 1</td>
+					<td>Комірка 2</td>
+					<td>Комірка 3</td>
+					<td>Комірка 4</td>
+				</tr>
+				<tr>
+					<td>Комірка 5</td>
+					<td>Комірка 6</td>
+					<td>Комірка 7</td>
+				</tr>
+			</table>
+		<h3>Приклад С COLSPAN</h3>
+			<table>
+				<tr>
+					<td>Комірка 1</td>
+					<td colspan="2">Комірка 2</td>
+				</tr>
+				<tr>
+					<td>Комірка 3</td>
+					<td>Комірка 4</td>
+					<td>Комірка 5</td>
+				</tr>
+			</table>
+		<h3>Заголовки (&lt; TH &lt;)</h3>
+			<table>
+				<tr>
+					<th>Загаловок1</th>
+					<th>Загаловок2</th>
+					<th>Загаловок3</th>
+				</tr>
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+				</tr>
+			</table>
+		<h3>COLSPAN і заголовки</h3>
+			<table>
+				<tr>
+					<th colspan="2">Заголовок1</th>
+					<th colspan="2">Заголовок2</th>
+				</tr>
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+					<td>D</td>
+				</tr>
+				<tr>
+					<td>E</td>
+					<td>F</td>
+					<td>G</td>
+					<td>H</td>
+				</tr>
+			</table>
+		<h3>Множинні заголовки, COLSPAN</h3>
+			<table>
+				<tr bgcolor="green">
+					<th colspan="2">Заголовок1</th>
+					<th colspan="2">Заголовок2</th>
+				</tr>
+				<tr bgcolor="green">
+					<th>Заголовок1</th>
+					<th>Заголовок2</th>
+					<th>Заголовок3</th>
+					<th>Заголовок4</th>
+				</tr>
+				<tr bgcolor="green">
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+					<td>D</td>
+				</tr>
+				<tr bgcolor="green">
+					<td>E</td>
+					<td>F</td>
+					<td>G</td>
+					<td>H</td>
+				</tr>
+			</table>
+		<h3>Бічні заголовки</h3>
+			<table>
+				<tr>
+					<th>Заголовок1</th>
+					<td>Комірка 1</td>
+					<td>Комірка 2</td>
+					<td>Комірка 3</td>
+				</tr>
+				<tr>
+					<th>Заголовок2</th>
+					<td>Комірка 4</td>
+					<td>Комірка 5</td>
+					<td>Комірка 6</td>
+				</tr>
+				<tr>
+					<th>Заголовок3</th>
+					<td>Комірка 7</td>
+					<td>Комірка 8</td>
+					<td>Комірка 9</td>
+				</tr>
+			</table>
+		<h3>Бічні заголовки, ROWSPAN</h3>
+			<table>
+				<tr>
+					<th rowspan="2">Заголовок1</th>
+					<td>Комірка 1</td>
+					<td>Комірка 2</td>
+					<td>Комірка 3</td>
+					<td>Комірка 4</td>
+				</tr>
+				<tr>
+					<td>Комірка 5</td>
+					<td>Комірка 6</td>
+					<td>Комірка 7</td>
+					<td>Комірка 8</td>
+				</tr>
+				<tr>
+					<th>Заголовок2</th>
+					<td>Комірка 9</td>
+					<td>Комірка 10</td>
+					<td>Комірка 3</td>
+					<td>Комірка 11</td>
+				</tr>
+			</table>
+		<h3>Приклад таблиці, яка використовує всі ці теги</h3>
+			<table>
+				<tr>
+					<th></th>
+					<th rowspan="2"></th>
+					<th colspan="2">Середня</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Ріст</th>
+					<th>Вага</th>
+				</tr>
+				<tr>
+					<th rowspan="2">Пол</th>
+					<th>Чоловіки</th>
+					<td>1.9</td>
+					<td>0.003</td>
+				</tr>
+				<tr>
+					<th>Жінки</th>
+					<td>1.7</td>
+					<td>0.002</td>
+				</tr>
+			</table>
+
+	<!--Second page-->
+
+		<h3>Використання ROWSPAN/COLSPAN</h3>
+			<table>
+				<tr>
+					<td rowspan="2">AБВГ</td>
+					<td>1234</td>
+					<td>5678</td>
+				</tr>
+				<tr>
+					<td>9101</td>
+					<td>2458</td>
+				</tr>
+				<tr>
+					<td>ДЕЖЗ</td>
+					<td colspan="2" align="center">КЛМН</td>
+			</table>
+		<h2 align="center">Вирівнювання, відступи, рамки</h2>
+		<h3>Таблиця без рамки</h3>
+			<table class="noBorder">
+					<tr>
+					<td>Комірка 1</td>
+					<td rowspan="2"">Комірка 2</td>
+					<td >Комірка 3</td>
+				</tr>
+				<tr>
+					<td>Комірка 4</td>
+					<td>Комірка 5</td>
+				</tr>
+			</table>
+		<h3>Таблиця з рамкою шириною 10</h3>
+			<table class="ramka">
+				<tr>
+					<td>Комірка 1</td>
+					<td>Комірка 2</td>
+				</tr>
+				<tr>
+					<td>Комірка 3</td>
+					<td>Комірка 4</td>
+				</tr>
+			</table>
+		<h3>CELLPADDING И CELLSPACING</h3>
+			<table cellpadding="10" cellspacing="0" class="marbot">
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+				</tr>
+			</table>
+			<table cellpadding="0" cellspacing="10" class="marbot">
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+				</tr>
+			</table>
+			<table cellpadding="10" cellspacing="10" class="marbot">
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+				</tr>
+			</table>
+			<table cellpadding="10" cellspacing="10" class="marbot" class="cell">
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+				</tr>
+			</table>
+		<h2 align="center">ВИРІВНЮВАННЯ, ЗАГОЛОВКИ ТА ПІДТАБЛИЦІ</h2>
+		<h3>Множинні рядки в таблиці</h3>
+			<table>
+				<tr>
+					<th>Січень</th>
+					<th>Лютий</th>
+					<th>Березень</th>
+				</tr>
+				<tr>
+					<td>Це комірка 1</td>
+					<td>комірка 2</td>
+					<td>Інша комірка,<br/>комірка 3</td>
+				</tr>
+				<tr>
+					<td>комірка 4</td>
+					<td>И ще одна,<br/>комірка 5</td>
+					<td>комірка 6</td>
+				</tr>
+			</table>
+
+	<!--Third page-->
+
+		<p><strong>ALIGN=LEFT|RIGHT|CENTER</strong><br/>Може застосовуватися до окремої комірка або до всього рядка</p>
+				<table>
+				<tr>
+					<th>Січень</th>
+					<th>Лютий</th>
+					<th>Березень</th>
+				</tr>
+				<tr>
+					<td align="center">Все по центру</td>
+					<td>комірка 2</td>
+					<td>Інша комірка,<br/>комірка 3</td>
+				</tr>
+				<tr>
+					<td align="right">По правому</td>
+					<td align="center">По центру</td>
+					<td>За замовчанням,<br/> по лівому</td>
+				</tr>
+			</table>
+		<p><strong>VALIGN=TOP|BOTTOM|MIDDLE</strong><br/>Може застосовуватися до окремої комірка або до всього рядка</p>
+			<table>
+				<tr>
+					<th>Січень</th>
+					<th>Лютий</th>
+					<th>Березень</th>
+				</tr>
+				<tr>
+					<td valign="top">По верхньому</td>
+					<td>Інша комірка,<br/>комірка 2</td>
+					<td valign="top">комірка 3</td>
+				</tr>
+				<tr>
+					<td valign="top">По верхньому</td>
+					<td valign="bottom">По нижньому</td>
+					<td>За замовчання,<br/>по центру</td>
+				</tr>
+			</table>
+		<p><strong>CAPTION=TOP|BOTTOM</strong></p>
+			<table sclass="marbot">
+				<caption clas="captop">Верхній заголовок</caption>
+				<tr>
+					<th>Січень</th>
+					<th>Лютий</th>
+					<th>Березень</th>
+				</tr>
+				<tr>
+					<td>Це комірка 1</td>
+					<td>Комірка 2</td>
+					<td>Інша комірка,<br/>комірка 3</td>
+				</tr>
+			</table>
+			<table>
+				<caption clas="capbot">Нижній заголовок</caption>
+				<tr>
+					<th>Січень</th>
+					<th>Лютий</th>
+					<th>Березень</th>
+				</tr>
+				<tr>
+					<td>Це комірка 1</td>
+					<td>Комірка 2</td>
+					<td>Інша комірка,<br/>комірка 3</td>
+				</tr>
+			</table>
+		<h3>Вкладені таблиці: таблиця <span class="undrline">ABCД</span> всередені таблиці <span class="undrline">123456</span></h3>
+			<table>
+				<tr>
+					<td>1111</td>
+					<td>2222</td>
+					<td>3333
+						<table class="margnol">
+							<tr>
+								<td>АААА</td>
+								<td>ВВВВ</td>
+							</tr>
+							<tr>
+								<td>СССС</td>
+								<td>ДДДД</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>4444</td>
+					<td>5555</td>
+					<td>6666</td>
+				</tr>
+			</table>
+		<h3>Завдання ширини таблиці<br/>ШИРИНА 50%</h3>
+			<table width="100%" class="marbot">
+				<tr>
+					<td width="50%">Width=50%</td>
+					<td width="50%">Width=50%</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+			</table>
+			<table class="marbot">
+				<tr>
+					<td>Комірка залежить від розміру елемента</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+			</table>
+
+	<!--Fouth page-->
+
+			<table width="100%">
+				<tr>
+					<td width="100%">WIDTH=100%</td>
+					<td>Це Комірка 2</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+			</table>
+		<h3>Центрування таблиці на сторінці</h3>
+			<table width="300px" class="margnolavt">
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+				</tr>
+			</table>
+		<h3>Ширина таблиці і вкладені таблиці</h3>
+			<table>
+				<tr>
+					<td>Комірка 1</td>
+					<td>Комірка 2</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="margnol">
+							<tr>
+								<td>Комірка A</td>
+								<td>Комірка B</td>
+							</tr>
+						</table>
+					</td>
+					<td>Комірка 4</td>
+				</tr>
+			</table>
+		<h3>HEIGHT=15%</h3>
+			<table  height="80px">
+				<tr height="15%">
+					<td>HEIGHT=15%</td>
+					<td>Комірка 2</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+			</table>
+		<h4>HTML таблиця розташована всередені комірки</h4>
+		<table bgcolor="grey">
+			<tr>
+				<td width="100px" height="100px"></td>
+				<td width="100px" height="100px">
+					<table bgcolor="white" class="margnolavt">
+						<tr>
+							<td width="25px" height="25px"></td>
+							<td width="15px" height="15px"></td>
+						</tr>
+						<tr>
+							<td width="25px" height="25px"></td>
+							<td width="25px" height="25px"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</main>
+</body>
+</html>
